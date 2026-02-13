@@ -12,4 +12,4 @@ model = ChatGoogleGenerativeAI(
     temperature=os.getenv("TEMPERATURE")
 )
 
-agent_config = {"configurable": {"thread_id": "user-123"}}
+agent_config = {"configurable": {"thread_id": "user-1234"}}
